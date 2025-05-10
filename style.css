@@ -25,6 +25,13 @@ html, body {
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  html, body {
+    overflow: hidden;
+    height: 100%;
+  }
+}
+
 .welcome {
   display: flex;
   justify-content: center;
